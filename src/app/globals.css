@@ -1972,6 +1972,327 @@ button {
    RESPONSIVE DESIGN
    ============================================ */
 
+@media (max-width: 1440px) and (min-width: 1025px) {
+  html {
+    font-size: 90%;
+  }
+
+  .section,
+  .section-compact,
+  .collection-section-compact,
+  .contact-section {
+    scroll-margin-top: 2.25rem;
+  }
+
+  .main-content {
+    max-width: 1200px;
+    padding: 4rem 1.5rem 2.5rem;
+  }
+
+  .hero-section {
+    gap: 3.125rem;
+    padding: 1.25rem 0 1.875rem;
+    min-height: calc(100vh - 10rem);
+  }
+
+  .hero-content {
+    gap: 1.5625rem;
+    max-width: 560px;
+  }
+
+  .hero-greeting {
+    font-size: 4.375rem;
+    margin-bottom: -0.625rem;
+    line-height: 0.95;
+  }
+
+  .hero-title {
+    font-size: clamp(2.5rem, 4vw, 5rem);
+    line-height: 1.2;
+  }
+
+  .hero-description {
+    font-size: 1.375rem;
+    line-height: 1.5;
+    margin-bottom: -0.3125rem;
+  }
+
+  .hero-cta {
+    margin-top: 0.625rem;
+  }
+
+  .hero-image-frame {
+    max-width: 450px;
+  }
+
+  .section {
+    padding: 3rem 0;
+  }
+
+  .section-compact {
+    padding: 3rem 0;
+  }
+
+  .section-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .section-title {
+    font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+    line-height: 1.15;
+    margin-bottom: 0.75rem;
+  }
+
+  .section-title .script {
+    margin-top: 0.25rem;
+    line-height: 1.1;
+  }
+
+  .story-grid {
+    gap: 1rem;
+    margin-top: 1.25rem;
+  }
+
+  .story-card {
+    padding: 1.5rem;
+  }
+
+  .story-section {
+    margin-bottom: 1.25rem;
+  }
+
+  .story-section:last-child {
+    margin-bottom: 0;
+  }
+
+  .story-subheading {
+    margin-bottom: 0.4rem;
+  }
+
+  .story-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .story-highlights {
+    gap: 0.65rem;
+  }
+
+  .highlight-card {
+    padding: 1rem;
+  }
+
+  .highlight-header {
+    margin-bottom: 0.6rem;
+  }
+
+  .highlight-badges {
+    gap: 0.35rem;
+    margin-top: 0.4rem;
+  }
+
+  .highlight-badge {
+    font-size: 0.688rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  .experience-editorial {
+    padding: 1.75rem;
+    margin-top: 1.25rem;
+  }
+
+  .experience-header-compact {
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.875rem;
+  }
+
+  .company-name {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 0.4rem;
+  }
+
+  .role-location {
+    line-height: 1.3;
+  }
+
+  .role-name {
+    font-size: 1rem;
+  }
+
+  .experience-content-stacked {
+    gap: 1.5rem;
+  }
+
+  .column-title {
+    font-size: 0.813rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .clients-list {
+    gap: 0.5rem;
+  }
+
+  .client-badge {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.7rem;
+  }
+
+  .highlights-list {
+    gap: 0.75rem;
+  }
+
+  .highlight-item {
+    gap: 0.75rem;
+  }
+
+  .highlight-text {
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+
+  .collection-section-compact {
+    padding: 3rem 0;
+    min-height: auto;
+  }
+
+  .collection-carousel-wrapper {
+    max-width: 1200px;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+  }
+
+  .carousel-track-preview {
+    gap: 1.25rem;
+    min-height: 460px;
+    padding: 0.5rem 0 2rem;
+  }
+
+  .project-card-preview.prev,
+  .project-card-preview.next {
+    width: 300px;
+    height: 460px;
+  }
+
+  .project-card-preview.active {
+    width: 380px;
+    height: 460px;
+  }
+
+  .project-card-preview .project-description {
+    font-size: 0.875rem;
+    line-height: 1.45;
+    margin-bottom: 0.875rem;
+    max-height: 120px;
+  }
+
+  .contact-section {
+    padding: 2.667rem 0 1.778rem;
+    min-height: auto;
+  }
+
+  .contact-section .section-header {
+    margin-bottom: 1.333rem;
+  }
+
+  .contact-section .section-title {
+    font-size: clamp(1.556rem, 3.111vw, 2.222rem);
+    margin-bottom: 0.667rem;
+  }
+
+  .contact-section .section-title .script {
+    margin-top: 0.222rem;
+  }
+
+  .contact-wrapper {
+    gap: 1.778rem;
+    margin-top: 1.111rem;
+  }
+
+  .contact-form {
+    padding: 1.556rem;
+  }
+
+  .contact-section .form-row {
+    gap: 0.556rem;
+    margin-bottom: 0.778rem;
+  }
+
+  .form-group {
+    margin-bottom: 0.889rem;
+  }
+
+  .form-label {
+    font-size: 0.778rem;
+    margin-bottom: 0.356rem;
+  }
+
+  .form-input,
+  .form-textarea {
+    padding: 0.622rem 0.844rem;
+    font-size: 0.834rem;
+    line-height: 1.4;
+  }
+
+  .form-textarea {
+    line-height: 1.5;
+  }
+
+  .btn-submit {
+    margin-top: 0.222rem;
+  }
+
+  .contact-info-title {
+    font-size: 1.333rem;
+    margin-bottom: 0.533rem;
+    line-height: 1.3;
+  }
+
+  .contact-info-text {
+    font-size: 0.834rem;
+    line-height: 1.55;
+    margin-bottom: 1.111rem;
+  }
+
+  .contact-details {
+    gap: 0.667rem;
+  }
+
+  .contact-detail-item {
+    padding: 0.667rem 0;
+    gap: 0.667rem;
+  }
+
+  .contact-detail-link {
+    font-size: 0.834rem;
+  }
+
+  .contact-social-icons {
+    gap: 0.556rem;
+    margin-top: 0.778rem;
+  }
+
+  .contact-location-text {
+    font-size: 0.834rem;
+    line-height: 1.55;
+    margin-top: 1.111rem;
+  }
+
+  .contact-rocky-image {
+    width: 160px !important;
+    height: 160px !important;
+  }
+
+  .contact-logo-wrapper {
+    margin-top: 1.333rem;
+  }
+
+  .contact-logo {
+    width: 196px !important;
+    height: 196px !important;
+  }
+}
+
 @media (max-width: 1024px) {
   .hero-section {
     grid-template-columns: 1fr;
